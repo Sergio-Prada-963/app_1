@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="./src/css/home.css">
+</head>
+
+<body>
+    <header>
+        <h1>Panadería</h1>
+
+        <div class="header-actions">
+            <div class="cart-icon" title="Carrito">🛒</div>
+
+            <div class="username">
+                Bienvenido, <span id="username"></span>
+            </div>
+
+            <button id="logout-btn" class="logout-btn">Cerrar sesión</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Producto 1 -->
+        <div class="card">
+            <img src="./src/imgs/producto_1.jpeg" alt="Producto 1">
+            <div class="card-content">
+                <h3>Zapatos Deportivos</h3>
+                <p>$120.000</p>
+                <button id="1">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="card">
+            <img src="./src/imgs/producto_2.jpeg" alt="Producto 2">
+            <div class="card-content">
+                <h3>Audífonos Bluetooth</h3>
+                <p>$80.000</p>
+                <button id="2">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="card">
+            <img src="./src/imgs/producto_3.jpeg" alt="Producto 3">
+            <div class="card-content">
+                <h3>Mochila Urbana</h3>
+                <p>$95.000</p>
+                <button id="3">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="card">
+            <img src="./src/imgs/producto_4.jpeg" alt="Producto 4">
+            <div class="card-content">
+                <h3>Reloj Digital</h3>
+                <p>$150.000</p>
+                <button id="4">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/home.js"></script>
+</body>
+
+</html>
